@@ -1,0 +1,143 @@
+REM  *****  BASIC  *****
+
+Sub Main
+
+End Sub
+
+Sub Vuadust ' Kársá meddâl (masa) puoh paijeelmiärásii teevstâ já kuáđá tuše omâstemhaamijd
+	Dim losta as object
+	
+	Dim pxp as String
+	
+	Dim loho as String
+	Dim saje as String
+	Dim px as String
+	Dim haami as String
+	
+    Dim loppa as Integer
+	
+	losta = ThisComponent.Sheets(0)
+	
+	' Majemuu raddalâsâst lii tekstâ "morphological tags". Jis raddalâsâi meeri lii olmânáál, tot lii raddâlâs 138.
+	if losta.getCellByPosition(0,137).String <> "Morphological" then
+	     MsgBox("Feilâ raddâlâsâi meerist.")
+	     Exit Sub ' Kalga tärhistiđ manuallávt, kost feilâ lii.
+	end if
+	
+	' Vuossâmuin 27 raddalasâin iä lah omâstemhäämih, váldojeh meddâl
+	losta.Rows.removeByIndex(0, 26)
+	
+	' Essiv olmâ sárgáttuvváid
+	for x = 99 to 107
+	    saje = "Ess"
+	    px = losta.getCellByPosition(3,x).String
+	    haami = losta.getCellByPosition(4,x).String
+	    
+	    losta.getCellByPosition(2,x).String = ""
+	    losta.getCellByPosition(3,x).String = saje
+	    losta.getCellByPosition(4,x).String	= px
+	    losta.getCellByPosition(5,x).String	= haami
+	next x
+	
+	' Omâsteijee lovo kyeskee informaatio váldoo meddâl sargâttuvâst E
+	for y = 0 to 107
+        pxp = left(losta.getCellByPosition(4,y).String, 2) + right(losta.getCellByPosition(4,y).String, 1)
+        
+        losta.getCellByPosition(4,y).String = pxp
+    next y
+	
+	loppa = 107
+	
+	' Identliih raddalâsah váldojeh meddâl (keevâtlávt omâsteijee lovo kyeskee informaatio váldoo meddâl puoh sargâttuvâin)
+    for i = 0 to loppa
+        loho = losta.getCellByPosition(2,i).String
+        saje = losta.getCellByPosition(3,i).String
+        px = losta.getCellByPosition(4,i).String
+        haami = losta.getCellByPosition(5,i).String
+        
+        for j = (i + 1) to loppa
+            if loho = losta.getCellByPosition(2,j).String and saje = losta.getCellByPosition(3,j).String and px = losta.getCellByPosition(4,j).String then
+                if haami = losta.getCellByPosition(5,j).String then
+                    losta.Rows.removeByIndex(j, 1)
+                    j = j - 1
+                    loppa = loppa - 1
+                else
+                    losta.getCellByPosition(5,j).CellBackColor = RGB(255,255,0)
+                end if
+            end if
+        next j
+    next i
+
+End Sub
+
+Sub Tievasmit
+    Dim losta as object
+    
+    Dim px1in as String
+    Dim pxttaa as String
+    
+    Dim compx1 as String
+    Dim plmaada as String
+    
+    Dim vhaami as String
+    
+  	losta = ThisComponent.Sheets(0)
+  	
+    ' GEN = ACC
+    losta.getCellByPosition(7,6).String = losta.getCellByPosition(7,3).String
+    losta.getCellByPosition(7,7).String = losta.getCellByPosition(7,4).String
+    losta.getCellByPosition(7,8).String = losta.getCellByPosition(7,5).String
+
+    ' SG.ILL, SG.LOC já SG.COM: PX2 já PX3 sáttá rahtuđ PX1:st
+  	for i = 9 to 17 step 3
+  	    px1in = losta.getCellByPosition(7, i).String
+  	    pxttaa = left(px1in, Len(px1in) - 2)
+
+  	    losta.getCellByPosition(7,i + 1).String = pxttaa & "âd"
+  	    losta.getCellByPosition(7,i + 2).String = pxttaa & "is"
+  	next i
+  	
+  	' Maaŋgâloho sáttá rahtuđ SG.COM vuáđuld
+  	compx1 = losta.getCellByPosition(7,15).String
+  	plmaada = left(compx1, Len(compx1) - 3)
+
+    for j = 18 to 26 step 3
+        losta.getCellByPosition(7,j).String = plmaada & "dân"
+        losta.getCellByPosition(7,j + 1).String = plmaada & "dâd"
+        losta.getCellByPosition(7,j + 2).String = plmaada & "dis"
+    next j
+    
+    losta.getCellByPosition(7,27).String = plmaada & "nân"
+    losta.getCellByPosition(7,28).String = plmaada & "nâd"
+    losta.getCellByPosition(7,29).String = plmaada & "nis"
+    
+    losta.getCellByPosition(7,30).String = plmaada & "dânguin"
+    losta.getCellByPosition(7,31).String = plmaada & "dâdguin"
+    losta.getCellByPosition(7,32).String = plmaada & "diskuin"
+    
+    ' ESS ráhtoo sääni vuáđuhäämi vuáđuld; ij tuáimá olmânáál puoh sänitiijpain, kalga tärhistiđ manuallávt
+    vhaami = losta.getCellByPosition(0,0).String
+    
+    if mid(vhaami,2,1) = mid(vhaami,3,1) then	' Kuhes vookaal uánnán
+        vhaami = left(vhaami, 1) & right(vhaami, Len(vhaami) - 2)
+    end if
+    
+    losta.getCellByPosition(7,33).String = vhaami & "nân"
+    losta.getCellByPosition(7,34).String = vhaami & "nâd"
+    losta.getCellByPosition(7,35).String = vhaami & "nis"
+    
+End Sub
+
+Sub Verdid
+	Dim losta as object
+	Dim testi as String
+	
+	losta = ThisComponent.Sheets(0)
+
+	for i = 0 to 35
+	    if losta.getCellByPosition(5,i).String <> losta.getCellByPosition(7,i).String then
+        	losta.getCellByPosition(5,i).CellBackColor = RGB(255,255,0)
+	    end if
+	next i
+	
+End Sub
