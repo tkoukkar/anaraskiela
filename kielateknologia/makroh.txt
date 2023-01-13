@@ -5,50 +5,49 @@ Sub Main
 End Sub
 
 Sub Vuadust ' Kársá meddâl (masa) puoh paijeelmiärásii teevstâ já kuáđá tuše omâstemhaamijd
-	Dim losta as object
+    Dim losta as object
 	
-	Dim pxp as String
-	
-	Dim loho as String
-	Dim saje as String
-	Dim px as String
-	Dim haami as String
+    Dim pxp as String
+    Dim loho as String
+    Dim saje as String
+    Dim px as String
+    Dim haami as String
 	
     Dim loppa as Integer
 	
-	losta = ThisComponent.Sheets(0)
+    losta = ThisComponent.Sheets(0)
 	
-	' Majemuu raddalâsâst lii tekstâ "morphological tags". Jis raddalâsâi meeri lii olmânáál, tot lii raddâlâs 138.
-	if losta.getCellByPosition(0,137).String <> "Morphological" then
-	     MsgBox("Feilâ raddâlâsâi meerist.")
-	     Exit Sub ' Kalga tärhistiđ manuallávt, kost feilâ lii.
-	end if
+    ' Majemuu raddalâsâst lii tekstâ "morphological tags". Jis raddalâsâi meeri lii olmânáál, tot lii raddâlâs 138.
+    if losta.getCellByPosition(0,137).String <> "Morphological" then
+        MsgBox("Feilâ raddâlâsâi meerist.")
+	Exit Sub ' Kalga tärhistiđ manuallávt, kost feilâ lii.
+    end if
 	
-	' Vuossâmuin 27 raddalasâin iä lah omâstemhäämih, váldojeh meddâl
-	losta.Rows.removeByIndex(0, 26)
+    ' Vuossâmuin 27 raddalasâin iä lah omâstemhäämih, váldojeh meddâl
+    losta.Rows.removeByIndex(0, 26)
 	
-	' Essiv olmâ sárgáttuvváid
-	for x = 99 to 107
-	    saje = "Ess"
-	    px = losta.getCellByPosition(3,x).String
-	    haami = losta.getCellByPosition(4,x).String
+    ' Essiv olmâ sárgáttuvváid
+    for x = 99 to 107
+        saje = "Ess"
+	px = losta.getCellByPosition(3,x).String
+	haami = losta.getCellByPosition(4,x).String
 	    
-	    losta.getCellByPosition(2,x).String = ""
-	    losta.getCellByPosition(3,x).String = saje
-	    losta.getCellByPosition(4,x).String	= px
-	    losta.getCellByPosition(5,x).String	= haami
-	next x
+	losta.getCellByPosition(2,x).String = ""
+	losta.getCellByPosition(3,x).String = saje
+	losta.getCellByPosition(4,x).String = px
+	losta.getCellByPosition(5,x).String = haami
+    next x
 	
-	' Omâsteijee lovo kyeskee informaatio váldoo meddâl sargâttuvâst E
-	for y = 0 to 107
+    ' Omâsteijee lovo kyeskee informaatio váldoo meddâl sargâttuvâst E
+    for y = 0 to 107
         pxp = left(losta.getCellByPosition(4,y).String, 2) + right(losta.getCellByPosition(4,y).String, 1)
         
         losta.getCellByPosition(4,y).String = pxp
     next y
-	
-	loppa = 107
-	
-	' Identliih raddalâsah váldojeh meddâl (keevâtlávt omâsteijee lovo kyeskee informaatio váldoo meddâl puoh sargâttuvâin)
+
+    ' Identliih raddalâsah váldojeh meddâl (keevâtlávt omâsteijee lovo kyeskee informaatio váldoo meddâl puoh sargâttuvâin)
+    loppa = 107
+    
     for i = 0 to loppa
         loho = losta.getCellByPosition(2,i).String
         saje = losta.getCellByPosition(3,i).String
