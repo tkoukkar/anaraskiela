@@ -1,0 +1,93 @@
+LEXICON 2AIGI
+LEXICON 2ALGA
+LEXICON 2ALGE
+LEXICON 2CAACI
+LEXICON 2CAANA
+LEXICON 2FADDA
+LEXICON 2JUUHA
+LEXICON 2KIELA
+LEXICON 2KIRKKO
+LEXICON 2KISSA
+- LEXICON 2KOLLIISTALLAM  !!≈ * **@CODE@**	Näiden possessiivitaivutusta ei taivutusopissa.
+LEXICON 2KUMPPI
+LEXICON 2KUSSA
+LEXICON 2KYELI
+LEXICON 2LAAVU
+LEXICON 2LAJO
+- LEXICON 2NIISU	gen. muoto niisum; po. pid.tyyppi niissum (vrt. VIASU)? Toisaalta uudehko laina. Ei taivutusopissa.
+LEXICON 2NIJBE
+- LEXICON 2NJAMMA   !!≈ * **@CODE@** > KIRKKO
+LEXICON 2NJUNE
+LEXICON 2OKKO
+- LEXICON 2PUUVSAH	PL tantum. Silmämääräisesti arvioiden ok; yleensähän virheet on sg:ssä.
+LEXICON 2RAAVHU
+LEXICON 2SAAMI
+- LEXICON 2SKERREEH	PL tantum. GA: generoi 2 vaihtoehtoa, esim. ?skerreeidân & skerreidân. Pitkä vokaali + i???
+LEXICON 2SOLLA		TO:ssa ei esimerkkiä III : I -vaihtelussa olevista sanoista, Itkosella lähinnä kussâ. Periaatteessa I ei pitene, Itkosella kuitenkin kūžzɒᴅ jne.?
+- LEXICON 2TAHO		> lajo (?)
+LEXICON 2TAVLU
+LEXICON 2TELTTA
+- LEXICON 2VAALJA	NGA: lyhyt V1 kaikissa??? TO:ssa ei esimerkkiä â-vartaloisista, joissa pitkä V1 + konsonanttiyhtymä.
+- LEXICON 2VADDU	> kussâ (?)
+LEXICON 2VAHE
+- LEXICON 2VASO		"only for vašo"
+- LEXICON 2VIASU !!≈ * **@CODE@** just as LAAVU, but without the short gen/acc 		Koodissa poss. samassa kuin LAAVU
+LEXICON 2VUAGGU
+-LEXICON 2VYEHI
+LEXICON 3AARRAN
+LEXICON 3ALMAS  !!≈ * **@CODE@** Sanaa AlmAS ei löydy, muita sarves, jalŋes??? Taivutus IWB:stä.
+- LEXICON 3CEVE !!≈ * **@CODE@** only for this lemma. It could go to 3LYEME but needs modifications of rules to get iä:e and -tt-, and the worst part is v:vv 
+- LEXICON 3COLL		Vähän sanoja, jakautuu eri leksikoihin
+- EXICON 3DUSSEPIIVTAS  !!≈ * **@CODE@**  piivtâš itself is not in the 3PIIVTAS lexicon 
+LEXICON 3EEMEED
+LEXICON 3HUKSIM
+- LEXICON 3JAAVVIL	TO:ssa (s. 159) jääṿil!!!
+LEXICON 3KAAVPUG  !!≈ * **@CODE@** 
+- LEXICON 3KEPIDEM	Ei itsenäisenä sanana NDS:ssä, ei TO:ssa. Koodin perusteella varmaan OK?
+- LEXICON 3KIEDAVUSSAM !!≈ * **@CODE@** stem: :kieđâvušš 			---,,---
+- LEXICON 3KOMPAS !!≈ * **@CODE@** stem kompass An odd loan word with the final -s lengthening 
+LEXICON 3LITTER
+- LEXICON 3LYEME !!≈ * **@CODE@** 	Poss. taivutus puuttuu kokonaan?
+- LEXICON 3OPPUS  !!≈ * **@CODE@** 	> almas
+LEXICON 3PAAVIR		TO:n mukaan IIb, esim.sanoista lähinnä lyeme? Tällöin po. lyh.tyyppi useimmissa px:issä; ei ole.
+- LEXICON 3PIIVTAS	vrt. DUSSEPIIVTAS???
+- LEXICON 3POOVIJ  !!≈ * **@CODE@** 		Oudosti taipuva sana, näitä ei varmaan ole kovin montaa?
+- LEXICON 3POOVSA	SG.NOM ja ESS poss.muodot puuttuvat kokonaan, muut ilmeisesti ok (?)
+LEXICON 3POTTAAK  !!≈ * **@CODE@** 
+LEXICON 3RUONAS !!≈ * **@CODE@** nuurras WG NEP,  blank for the rest 		vrt. paavir ^
+LEXICON 3SAJOS !!≈ * **@CODE@** sai4joos 
+- LEXICON 3TERES !!≈ * **@CODE@** 		ESS puuttuu. Muista ei pysty sanomaan ovatko oikein; mihin ryhmään kuuluu?
+- LEXICON 3UAIVAT !!≈ * **@CODE@** > 3EEMEED. No Px, but only one word uáivát, witout Px para. 
+- LEXICON 3VEESKIR	SG.NOM ja ESS poss.muodot puuttuvat kokonaan, muut ilmeisesti ok (?)
+- LEXICON 3VUONJAS  !!≈ * **@CODE@**  kierâš, stem: kierrâ, px kierâččâm 	PL.ACC, .ILL ja .COM: č puuttuu. Muut ok?
+LEXICON 4CAHALIG
+LEXICON 4JOTOLAH
+- LEXICON 4KAPULUH  !!≈ * **@CODE@** 	> LAS (?)
+- LEXICON 4KUBALOH  !!≈ * **@CODE@** 	> LAS (?)
+LEXICON 4KUNAGAS	Taivutus IWB:stä.
+LEXICON 4LAS
+LEXICON 4MANUTTEP
+- LEXICON 4PUHELIN                !!≈ * **@CODE@**  Only a few words in this category 
+LEXICON AAIGA
+LEXICON ALMAS
+LEXICON APINA
+LEXICON CAACI
+LEXICON CUANJA
+LEXICON FADDA
+LEXICON GUIN  !!≈ * **@CODE@** is here to give -guin and the Use/NG -gijn. 
+LEXICON JOHTOLAH
+LEXICON JUUHA
+LEXICON JUUVAS !!≈ * **@CODE@** (A lexicon for lexicalised deminutive words, thus words NOT having a double deminutive) 
+LEXICON KIELA
+LEXICON KIRKKO
+LEXICON KISSA
+LEXICON KOLME 
+LEXICON KYELI
+LEXICON LAAVU
+LEXICON LAJO
+LEXICON LAS
+LEXICON MUS
+LEXICON OLYMPIALIIH
+LEXICON S
+LEXICON X
+LEXICON nounstems !!≈ **@CODE@** contains words that should be classified, for now directed to: 

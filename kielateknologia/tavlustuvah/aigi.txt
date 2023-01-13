@@ -1,0 +1,126 @@
+igi 	N Sg Nom 	äigi
+äigi 	N Sg Gen 	ääigi
+äigi 	N Sg Acc 	ääigi
+äigi 	N Sg Ill 	ááigán
+äigi 	N Sg Loc 	ääigist
+äigi 	N Sg Com 	aigijn
+äigi 	N Sg Abe 	äigittáá
+äigi 	N Pl Nom 	ääigih
+äigi 	N Pl Gen 	aaigij 	aigij
+äigi 	N Pl Acc 	aaigijd
+äigi 	N Pl Ill 	aigijd
+äigi 	N Pl Loc 	aaigijn
+äigi 	N Pl Com 	aigijgijn 	aigijguin
+äigi 	N Pl Abe 	aigijttáá
+äigi 	N Par 	äigid
+äigi 	N Ess 	äigin
+äigi 	N Sg Nom PxSg1 	äigám
+äigi 	N Sg Nom PxSg2 	äigád
+äigi 	N Sg Nom PxSg3 	äigis
+äigi 	N Sg Nom PxDu1 	äigám
+äigi 	N Sg Nom PxDu2 	äigád
+äigi 	N Sg Nom PxDu3 	äigis
+äigi 	N Sg Nom PxPl1 	äigám
+äigi 	N Sg Nom PxPl2 	äigád
+äigi 	N Sg Nom PxPl3 	äigis
+äigi 	N Sg Gen PxSg1 	äigin
+äigi 	N Sg Gen PxSg2 	äigid
+äigi 	N Sg Gen PxSg3 	ääigis
+äigi 	N Sg Gen PxDu1 	äigin
+äigi 	N Sg Gen PxDu2 	äigid
+äigi 	N Sg Gen PxDu3 	ääigis
+äigi 	N Sg Gen PxPl1 	äigin
+äigi 	N Sg Gen PxPl2 	äigid
+äigi 	N Sg Gen PxPl3 	ääigis
+äigi 	N Sg Acc PxSg1 	äigin
+äigi 	N Sg Acc PxSg2 	äigid
+äigi 	N Sg Acc PxSg3 	ääigis
+äigi 	N Sg Acc PxDu1 	äigin
+äigi 	N Sg Acc PxDu2 	äigid
+äigi 	N Sg Acc PxDu3 	ääigis
+äigi 	N Sg Acc PxPl1 	äigin
+äigi 	N Sg Acc PxPl2 	äigid
+äigi 	N Sg Acc PxPl3 	ääigis
+äigi 	N Sg Ill PxSg1 	áigásân
+äigi 	N Sg Ill PxSg2 	áigásâd
+äigi 	N Sg Ill PxSg3 	áigásis
+äigi 	N Sg Ill PxDu1 	áigásân
+äigi 	N Sg Ill PxDu2 	áigásâd
+äigi 	N Sg Ill PxDu3 	áigásis
+äigi 	N Sg Ill PxPl1 	áigásân
+äigi 	N Sg Ill PxPl2 	áigásâd
+äigi 	N Sg Ill PxPl3 	áigásis
+äigi 	N Sg Loc PxSg1 	äigistân
+äigi 	N Sg Loc PxSg2 	äigistâd
+äigi 	N Sg Loc PxSg3 	äigistis
+äigi 	N Sg Loc PxDu1 	äigistân
+äigi 	N Sg Loc PxDu2 	äigistâd
+äigi 	N Sg Loc PxDu3 	äigistis
+äigi 	N Sg Loc PxPl1 	äigistân
+äigi 	N Sg Loc PxPl2 	äigistâd
+äigi 	N Sg Loc PxPl3 	äigistis
+äigi 	N Sg Com PxSg1 	aigijnân
+äigi 	N Sg Com PxSg2 	aigijnâd
+äigi 	N Sg Com PxSg3 	aigijnis
+äigi 	N Sg Com PxDu1 	aigijnân
+äigi 	N Sg Com PxDu2 	aigijnâd
+äigi 	N Sg Com PxDu3 	aigijnis
+äigi 	N Sg Com PxPl1 	aigijnân
+äigi 	N Sg Com PxPl2 	aigijnâd
+äigi 	N Sg Com PxPl3 	aigijnis
+äigi 	N Pl Gen PxSg1 	aigijdân
+äigi 	N Pl Gen PxSg2 	aigijdâd
+äigi 	N Pl Gen PxSg3 	aigijdis
+äigi 	N Pl Gen PxDu1 	aigijdân
+äigi 	N Pl Gen PxDu2 	aigijdâd
+äigi 	N Pl Gen PxDu3 	aigijdis
+äigi 	N Pl Gen PxPl1 	aigijdân
+äigi 	N Pl Gen PxPl2 	aigijdâd
+äigi 	N Pl Gen PxPl3 	aigijdis
+äigi 	N Pl Acc PxSg1 	aigijdân
+äigi 	N Pl Acc PxSg2 	aigijdâd
+äigi 	N Pl Acc PxSg3 	aigijdis
+äigi 	N Pl Acc PxDu1 	aigijdân
+äigi 	N Pl Acc PxDu2 	aigijdâd
+äigi 	N Pl Acc PxDu3 	aigijdis
+äigi 	N Pl Acc PxPl1 	aigijdân
+äigi 	N Pl Acc PxPl2 	aigijdâd
+äigi 	N Pl Acc PxPl3 	aigijdis
+äigi 	N Pl Ill PxSg1 	aigijdân
+äigi 	N Pl Ill PxSg2 	aigijdâd
+äigi 	N Pl Ill PxSg3 	aigijdis
+äigi 	N Pl Ill PxDu1 	aigijdân
+äigi 	N Pl Ill PxDu2 	aigijdâd
+äigi 	N Pl Ill PxDu3 	aigijdis
+äigi 	N Pl Ill PxPl1 	aigijdân
+äigi 	N Pl Ill PxPl2 	aigijdâd
+äigi 	N Pl Ill PxPl3 	aigijdis
+äigi 	N Pl Loc PxSg1 	aigijnân
+äigi 	N Pl Loc PxSg2 	aigijnâd
+äigi 	N Pl Loc PxSg3 	aigijnis
+äigi 	N Pl Loc PxDu1 	aigijnân
+äigi 	N Pl Loc PxDu2 	aigijnâd
+äigi 	N Pl Loc PxDu3 	aigijnis
+äigi 	N Pl Loc PxPl1 	aigijnân
+äigi 	N Pl Loc PxPl2 	aigijnâd
+äigi 	N Pl Loc PxPl3 	aigijnis
+äigi 	N Pl Com PxSg1 	aigijdânguin
+äigi 	N Pl Com PxSg2 	aigijdâdguin
+äigi 	N Pl Com PxSg3 	aigijdiskuin
+äigi 	N Pl Com PxDu1 	aigijdânguin
+äigi 	N Pl Com PxDu2 	aigijdâdguin
+äigi 	N Pl Com PxDu3 	aigijdiskuin
+äigi 	N Pl Com PxPl1 	aigijdânguin
+äigi 	N Pl Com PxPl2 	aigijdâdguin
+äigi 	N Pl Com PxPl3 	aigijdiskuin
+äigi 	N Ess PxSg1 	äiginân
+äigi 	N Ess PxSg2 	äiginâd
+äigi 	N Ess PxSg3 	äiginis
+äigi 	N Ess PxDu1 	äiginân
+äigi 	N Ess PxDu2 	äiginâd
+äigi 	N Ess PxDu3 	äiginis
+äigi 	N Ess PxPl1 	äiginân
+äigi 	N Ess PxPl2 	äiginâd
+äigi 	N Ess PxPl3 	äiginis
+
+
