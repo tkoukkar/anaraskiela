@@ -1,7 +1,7 @@
 # Anarâškielâ
 
 Repositorio muu anarâškielâ tiätuvuárháid.   
-A repository for my Inari Saami files.
+A repository for my Aanaar Saami files.
 
 [Strategies for derivational affix adaptation in loanwords in Aanaar Saami](https://sites.utu.fi/affixes/wp-content/uploads/sites/1247/2023/09/Koukkari.pdf) ।<ins>🡥</ins> (hosted on [utu.fi](https://www.utu.fi)). Presentation at the Affixes symposium at the University of Turku, 18.08.2023.
 
