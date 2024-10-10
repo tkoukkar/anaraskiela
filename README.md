@@ -1,6 +1,6 @@
 # Anarâškielâ
 
-Repositorio muu anarâškielâ tiätuvuárháid.
+Repositorio muu anarâškielâ tiätuvuárháid.  
 A repository for my Aanaar Saami files.
 
 [Polypersonal agreement vs. impersonal constructions in Aanaar Saami modal verbs](https://github.com/tkoukkar/anaraskiela/blob/master/Koukkari_Tuomas-SoUL5-oovdanpyehtim-lop.pdf). Presentation at the 5th Syntax of Uralic Languages conference at the University of Hamburg, 13.09.2024.
