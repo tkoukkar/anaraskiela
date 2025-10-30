@@ -3,7 +3,7 @@
 Repositorio muu anarâškielâ tiätuvuárháid.  
 A repository for my Aanaar Saami files.
 
-[Describing morphology in Aanaar Saami: what, how, and for whom?](Koukkari_Tuomas-SaaLS6-oovdanpyehtim.pdf). Presentation at the 6th Saami Linguistic Symposium at the University of Helsinki, 06.11.2022. 
+[Describing morphology in Aanaar Saami: what, how, and for whom?](Koukkari_Tuomas-SaaLS6-oovdanpyehtim.pdf). Presentation at the 6th Saami Linguistic Symposium at the University of Helsinki, 06.11.2024. 
 
 [Polypersonal agreement vs. impersonal constructions in Aanaar Saami modal verbs](https://github.com/tkoukkar/anaraskiela/blob/master/Koukkari_Tuomas-SoUL5-oovdanpyehtim-lop.pdf). Presentation at the 5th Syntax of Uralic Languages conference at the University of Hamburg, 13.09.2024.
 
